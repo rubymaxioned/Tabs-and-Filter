@@ -210,6 +210,11 @@ h3 { padding: 5px; }
   height: 100%;
   object-fit: cover;
 }
+
+.tab2,
+.tab3 { display: none; }
+
+.show { display: flex; }
 /*foundation section end*/
 
 /*we section start*/
@@ -446,5 +451,12 @@ h3  { font-size: 24px; }
   font-size: 19px;
   line-height: 30px;
   text-align: initial;
+}
+
+.tab1 { margin-bottom: 36px; }
+
+.tab2 { 
+  display: none;
+  flex-direction: column;
 }
 }  
