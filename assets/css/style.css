@@ -190,19 +190,44 @@ h3 { padding: 5px; }
    border-bottom: 3px solid #B0B5BB;
 }
 
-.tab1 {
+.tab1,
+.tab3 {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.leadership-content p {
+.leadership-content p,
+.tab3 p {
   font-size: 13px;
   line-height: 22px;
   text-align: justify;
 }
 
+.filter-ul {
+  margin-bottom: 10px;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+.filter {
+  padding: 2px 8px;
+  background-color: #000;
+  color: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery li { max-height: 200px; }
+
+.tab2 { margin-bottom: 20px; }
 /*foundation section end*/
 
 
