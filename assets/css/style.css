@@ -143,7 +143,7 @@ h2::first-letter { text-transform: capitalize; }
   justify-content: space-around;
 }
 
-.tabs-head li.active {
+.active {
   border: 2px solid #B0B5BC;
   border-bottom: 4px solid #fff;
 }
@@ -215,6 +215,7 @@ h3 { padding: 5px; }
 .tab3 { display: none; }
 
 .show { display: flex; }
+.hide { display: none; }
 /*foundation section end*/
 
 /*we section start*/
