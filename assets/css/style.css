@@ -284,8 +284,86 @@ h3 { padding: 5px; }
 =================================*/ 
 
 /*media query starts*/
+/*media query for 480px starts here*/
+@media only screen and (min-width: 480px) {
+
+.filter-ul { 
+  margin-bottom: 15px;
+  gap: 10px;
+ }
+
+.filter { padding: 3px 10px; }
+.gallery li { flex-basis: 48%; }
+
+}  
+
+/*media query for 540px starts here*/
+@media only screen and (min-width: 540px) {
+
+
+
+}  
+
+/*media query for 768px starts here*/
+@media only screen and (min-width: 768px) {
+
+.tab1,
+.tab3 { 
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.tab1 figure,
+.tab3 figure { flex-basis: 40%; }
+
+.tab1 p,
+.tab3 p { flex-basis: 60%; } 
+
+.we-section .wrapper { display: flex; }
+
+.we-section-content,
+.person-images,
+.realizing-image-section,
+.realizing-content { flex-basis: 50%; }
+
+.realizing-section .wrapper { 
+  flex-direction: row; 
+}
+
+}
+
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (min-width: 995px) {
+
+.tab1 p,
+.tab3 p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.we-section-content p {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.we-section .wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.realizing-section { flex-direction: row; }
+}  
+
+/*media query for 1024px starts here*/
+@media only screen and (min-width: 1024px) {
+
+
+
+}  
+
+/*media query for 1366px starts here*/
+@media only screen and (min-width: 1366px) {
 
 
 
