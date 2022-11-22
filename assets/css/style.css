@@ -136,6 +136,7 @@ h2 {
 h2::first-letter { text-transform: capitalize; }
 
 .tabs-head {
+  /* border-bottom: 3px solid #B0B5BB; */
   margin-bottom: 20px;
   display: flex;
   font-size: 14px;
@@ -146,10 +147,35 @@ h2::first-letter { text-transform: capitalize; }
 
 h3 { padding: 5px; }
 
-.active {
-    
+.tabs-head li {
+  border-top: 2px solid #B0B5BB;
+  border-left: 2px solid #B0B5BB;
+  border-right: 2px solid #B0B5BB;
+  position: relative;
+  color: #354AA8;
 }
 
+.tabs-head li::before {
+  width: 6px;
+  height: 3px;
+  position: absolute;
+  bottom: 0px;
+  left: -7px;
+  background-color: #B0B5BB;
+  content: '';
+}
+
+.tabs-head li::after {
+  width: 6px;
+  height: 3px;
+  position: absolute;
+  bottom: 0px;
+  right: -7px;
+  background-color: #B0B5BB;
+  content: '';
+} 
+
+/* .tabs-head { position: relative; } */
 /*foundation section end*/
 
 
