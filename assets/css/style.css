@@ -118,11 +118,6 @@ li {
   Header styling starts here
 =================================*/
 
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -130,11 +125,32 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/*foundation section start*/
+h2 {
+  margin-bottom: 10px;
+  color: #28489A;
+  font-size: 18px;
+  font-weight: bold;
+}
 
+h2::first-letter { text-transform: capitalize; }
 
+.tabs-head {
+  margin-bottom: 20px;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+}
 
+.foundation-section { padding-top: 20px; }
 
+h3 { padding: 5px; }
 
+.active {
+    
+}
+
+/*foundation section end*/
 
 
 
