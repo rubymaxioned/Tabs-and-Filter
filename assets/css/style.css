@@ -205,6 +205,11 @@ h3 { padding: 5px; }
 
 .tab2 { margin-bottom: 20px; }
 .tab1 p span { text-decoration: underline; }
+
+.gallery li img {
+  height: 100%;
+  object-fit: cover;
+}
 /*foundation section end*/
 
 /*we section start*/
@@ -331,6 +336,13 @@ h3 { padding: 5px; }
   flex-direction: row; 
 }
 
+.gallery { justify-content: space-between; }
+
+.gallery li { 
+  flex-grow: 1;
+  flex-basis: 24%;
+ }
+
 }
 
 /*media query for 995px starts here*/
@@ -365,6 +377,98 @@ h3 { padding: 5px; }
 /*media query for 1366px starts here*/
 @media only screen and (min-width: 1366px) {
 
+.foundation-section .wrapper { width: 80%; }
 
+h2 { 
+  margin-bottom: 47px;
+  font-size: 28px; 
+}
 
+.tabs-head li { padding: 18px 100px; }
+h3  { font-size: 24px; }
+.tabs-head { margin-bottom: 42px; }
+
+.tab-content {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.tab1 figure,
+.tab3 figure { flex-basis: 40%; }
+
+.tab1 p,
+.tab3 p { 
+  padding-top: 40px;
+  flex-basis: 48%;
+  font-size: 21px;
+  text-align: initial;
+ }
+
+.tab1 figure img,
+.tab3 figure img { min-height: 257px; }
+
+.tab1,
+.tab3 { 
+  align-items: initial;
+  gap: 50px;
+ } 
+
+ .we-section-content { padding-left: 80px; }
+ .tab3 { margin-bottom: 30px; }
+ .we-section { padding: 0px; }
+ .we-section-content { padding-top: 62px; }
+ .we-section-content h2 { margin-bottom: 33px; }
+
+ .we-section-content p {
+  font-size: 19px;
+  line-height: 28px;
+ }
+
+.person-images li { 
+  flex-basis: 24%;
+  gap: 0px;
+}
+
+.we-section-content { 
+  padding-bottom: 80px;
+  padding-left: 13%;
+  margin-bottom: 0px;
+}
+
+.realizing-section .wrapper,
+.we-section .wrapper { width: 100%; }
+
+.realizing-image-section img { height: 405px; }
+.realizing-image-section { flex-basis: 51%; }
+
+.dot-sec { 
+  bottom: 45px; 
+  gap: 18px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+}
+
+.person-images li img {
+  width: 165px;
+  height: 203px;
+}
+
+.person-images { gap: 0px; } 
+
+.realizing-content { 
+  padding-top: 60px;
+  padding-left: 56px;
+}
+
+.realizing-content h2 { margin-bottom: 32px; }
+
+.realizing-content p {
+  width: 445px;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: initial;
+}
 }  
