@@ -199,7 +199,9 @@ h3 { padding: 5px; }
 }
 
 .leadership-content p,
-.tab3 p {
+.tab3 p,
+.realizing-content p {
+  color: #444;
   font-size: 13px;
   line-height: 22px;
   text-align: justify;
@@ -230,7 +232,62 @@ h3 { padding: 5px; }
 .tab2 { margin-bottom: 20px; }
 /*foundation section end*/
 
+/*we section start*/
+.we-section { 
+  padding: 20px 0 20px;
+  background-color: #F2F3F5;
+}
 
+.we-section-content { margin-bottom: 15px; }
+
+.we-section-content p { 
+  color: #444;
+  font-size: 12px; 
+  line-height: 20px;
+}
+
+.we-section-content p::first-letter { text-transform: capitalize; }
+.we-section-content p span { font-weight: bold; }
+
+.person-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.person-images li { flex-basis: 20%; }
+/*we section end*/
+
+/*realizing section start*/
+.dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: transparent;
+  text-indent: -9999px;
+}
+
+.realizing-image-section { position: relative; }
+.realizing-image-section figure { margin-bottom: 15px; }
+
+.dot-sec {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 25px;
+  gap: 7px;
+  justify-content: center;
+}
+
+.realizing-section .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/*realizing section end*/
 
 /*=================================
   main styling ends here
