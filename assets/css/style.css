@@ -211,10 +211,7 @@ h3 { padding: 5px; }
   object-fit: cover;
 }
 
-/* .tab2,
-.tab3 { display: none; } */
 .tab-content > * { display: none; }
-
 .show { display: block; }
 .hide { display: none; }
 /*foundation section end*/
@@ -298,20 +295,17 @@ h3 { padding: 5px; }
 /*media query starts*/
 /*media query for 480px starts here*/
 @media only screen and (min-width: 480px) {
-
 .filter-ul { 
   margin-bottom: 15px;
   gap: 10px;
- }
+}
 
 .filter { padding: 3px 10px; }
 .gallery li { flex-basis: 48%; }
-
 }  
 
 /*media query for 768px starts here*/
 @media only screen and (min-width: 768px) {
-
 .tab1,
 .tab3 { 
   align-items: center;
@@ -343,7 +337,6 @@ h3 { padding: 5px; }
 
 /*media query for 995px starts here*/
 @media only screen and (min-width: 995px) {
-
 .tab1 p,
 .tab3 p {
   font-size: 15px;
@@ -365,7 +358,6 @@ h3 { padding: 5px; }
 
 /*media query for 1366px starts here*/
 @media only screen and (min-width: 1366px) {
-
 .foundation-section .wrapper { width: 80%; }
 
 h2 { 
@@ -391,7 +383,7 @@ h3  { font-size: 24px; }
   flex-basis: 48%;
   font-size: 21px;
   text-align: initial;
- }
+}
 
 .tab1 figure img,
 .tab3 figure img { min-height: 257px; }
@@ -457,10 +449,7 @@ h3  { font-size: 24px; }
 
 .tab1 { margin-bottom: 36px; }
 
-.tab2 { 
-  /* display: none; */
-  flex-direction: column;
-}
+.tab2 { flex-direction: column; }
 .gallery { justify-content: flex-start; }
 .gallery li { flex-grow: 0; }
 }  
