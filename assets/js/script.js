@@ -1,5 +1,6 @@
 var tabHeader = document.querySelectorAll('.tabs-head li');
-var tabContent = document.querySelectorAll('.tab-content > li');
+var tabContent = document.querySelectorAll('.tab-content > div');
+console.log(tabContent);
 // console.log(tabContent);
 tabHeader[0].classList.add('active');
 tabContent[0].classList.add('show');
