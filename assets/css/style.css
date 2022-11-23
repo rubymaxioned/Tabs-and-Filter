@@ -214,7 +214,7 @@ h3 { padding: 5px; }
 .tab2,
 .tab3 { display: none; }
 
-.show { display: flex; }
+.show { display: block; }
 .hide { display: none; }
 /*foundation section end*/
 
