@@ -3,6 +3,21 @@ var tabContent = document.querySelectorAll('.tab-content > div');
 var filterBtn = document.querySelectorAll('.filter');
 var galleryImg = document.querySelectorAll('.gallery li');
 
+tabHeader[0].classList.add('active');
+tabContent[0].classList.add('show');
+
+tabHeader.forEach(function(list,index){
+    list.addEventListener('click',function(){
+        for(var i=0; i<tabHeader.length; i++){
+            tabHeader[i].classList.remove('active');
+            tabContent[i].classList.remove('show');
+        }
+        list.classList.add('active');
+        tabContent[index].classList.add('show');
+        // console.log(tabContent[index]);
+    })
+})
+
 filterBtn.forEach(function(btn,index){
     btn.addEventListener('click',function(){
         var data = btn.getAttribute('data-type');
@@ -27,21 +42,8 @@ filterBtn.forEach(function(btn,index){
 
 
 
-tabHeader[0].classList.add('active');
-tabContent[0].classList.add('show');
 
 
-tabHeader.forEach(function(list,index){
-    list.addEventListener('click',function(){
-        for(var i=0; i<tabHeader.length; i++){
-            tabHeader[i].classList.remove('active');
-            tabContent[i].classList.remove('show');
-        }
-        list.classList.add('active');
-        tabContent[index].classList.add('show');
-        // console.log(tabContent[index]);
-    })
-})
 
 
 
