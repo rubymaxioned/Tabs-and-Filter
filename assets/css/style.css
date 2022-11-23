@@ -203,7 +203,12 @@ h3 { padding: 5px; }
   overflow: hidden;
 }
 
-.tab2 { margin-bottom: 20px; }
+.tab2 { 
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
 .tab1 p span { text-decoration: underline; }
 
 .gallery li img {
@@ -212,7 +217,7 @@ h3 { padding: 5px; }
 }
 
 .tab-content > * { display: none; }
-.show { display: block; }
+.show { display: flex; }
 .hide { display: none; }
 /*foundation section end*/
 
