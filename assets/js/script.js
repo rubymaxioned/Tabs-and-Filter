@@ -1,5 +1,5 @@
 var tabHeader = document.querySelectorAll('.tabs-head li');
-var tabContent = document.querySelectorAll('.tab-content > div');
+var tabContent = document.querySelectorAll('.tab-content > li');
 var filterBtn = document.querySelectorAll('.filter');
 var galleryImg = document.querySelectorAll('.gallery li');
 
