@@ -458,7 +458,7 @@ h3  { font-size: 24px; }
 .tab1 { margin-bottom: 36px; }
 
 .tab2 { 
-  display: none;
+  /* display: none; */
   flex-direction: column;
 }
 }  
