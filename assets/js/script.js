@@ -4,6 +4,7 @@ var tabContent = document.querySelectorAll('.tab-content > div');
 // console.log(tabContent);
 tabHeader[0].classList.add('active');
 tabContent[0].classList.add('show');
+console.log(tabContent[0]);
 
 // console.log(tabHeader);
 // console.log(tabContent);
