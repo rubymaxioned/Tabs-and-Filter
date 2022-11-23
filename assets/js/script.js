@@ -14,7 +14,6 @@ tabHeader.forEach(function(list,index){
         }
         list.classList.add('active');
         tabContent[index].classList.add('show');
-        // console.log(tabContent[index]);
     })
 })
 
@@ -26,13 +25,10 @@ filterBtn.forEach(function(btn,index){
             var galleryImgData = image.getAttribute('data-type');
 
             if(data == "all") {
-                // image.style.display = "";
                 image.classList.remove("hide");
             } else if(data == galleryImgData) {
-                // image.style.display = "";
                 image.classList.remove("hide");
             } else {
-                // image.style.display = "none";
                 image.classList.add("hide");
             }
         })
