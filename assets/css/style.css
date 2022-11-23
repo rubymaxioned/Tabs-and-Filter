@@ -211,8 +211,8 @@ h3 { padding: 5px; }
   object-fit: cover;
 }
 
-.tab2,
-.tab3 { display: none; }
+/* .tab2,
+.tab3 { display: none; } */
 
 .show { display: block; }
 .hide { display: none; }
