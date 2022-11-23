@@ -1,5 +1,21 @@
 var tabHeader = document.querySelectorAll('.tabs-head li');
 var tabContent = document.querySelectorAll('.tab-content > div');
+var filterBtn = document.querySelectorAll('.filter');
+var galleryImg = document.querySelectorAll('.gallery li');
+// console.log(flower);
+
+filterBtn.forEach(function(btn,index){
+    // btn.addEventListener('click',function(){
+        var data = btn.getAttribute('data-type');
+        console.log(data);
+    // })
+})
+
+galleryImg.forEach(function(image){
+    var galleryImgData = image.getAttribute('data-type');
+    console.log(galleryImgData);
+})
+
 // console.log(tabContent);
 // console.log(tabContent);
 tabHeader[0].classList.add('active');
