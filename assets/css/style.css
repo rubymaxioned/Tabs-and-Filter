@@ -213,6 +213,7 @@ h3 { padding: 5px; }
 
 /* .tab2,
 .tab3 { display: none; } */
+.tab-content > * { display: none; }
 
 .show { display: block; }
 .hide { display: none; }
