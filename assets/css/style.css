@@ -228,7 +228,7 @@ h3 { padding: 5px; }
   cursor: pointer;
 }
 
-/* .tab-content > * { display: none; } */
+.tab-content > * { display: none; }
 .show { display: flex; }
 .hide { display: none; }
 /*foundation section end*/
