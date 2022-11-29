@@ -148,10 +148,14 @@ h2::first-letter { text-transform: capitalize; }
   border-bottom: 4px solid #fff;
 }
 
-.tabs-head li { transform: translateY(4px); }
+.tabs-head li { 
+  position: relative; 
+  transform: translateY(4px);
+}
+
+.tabs-head li:hover { cursor: pointer; }
 .foundation-section { padding-top: 20px; }
 h3 { padding: 5px; }
-.tabs-head li { position: relative; }
 
 .tabs-head h3 { 
   color: #B0B5BC;
@@ -224,7 +228,7 @@ h3 { padding: 5px; }
   cursor: pointer;
 }
 
-.tab-content > * { display: none; }
+/* .tab-content > * { display: none; } */
 .show { display: flex; }
 .hide { display: none; }
 /*foundation section end*/
@@ -367,6 +371,11 @@ h3 { padding: 5px; }
 }
 
 .realizing-section { flex-direction: row; }
+
+.filter { 
+  padding: 5px 2%;
+  font-size: 15px;
+}
 }   
 
 /*media query for 1366px starts here*/
