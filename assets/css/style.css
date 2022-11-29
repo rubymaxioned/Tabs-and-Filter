@@ -190,8 +190,9 @@ h3 { padding: 5px; }
   text-transform: capitalize;
 }
 
-.filter {
-  padding: 2px 8px;
+.filter-ul li {
+  padding: 2px 2%;
+  border: 1px solid transparent;
   background-color: #000;
   color: #fff;
 }
@@ -214,7 +215,6 @@ h3 { padding: 5px; }
 }
 
 .tab1 p span { text-decoration: underline; }
-.filter-ul li { border: 1px solid transparent; }
 
 .gallery li img {
   height: 100%;
@@ -317,7 +317,7 @@ h3 { padding: 5px; }
   gap: 10px;
 }
 
-.filter { padding: 3px 10px; }
+.filter-ul li { padding: 5px 3%; }
 .gallery li { flex-basis: 48%; }
 }  
 
@@ -372,7 +372,7 @@ h3 { padding: 5px; }
 
 .realizing-section { flex-direction: row; }
 
-.filter { 
+.filter-ul li { 
   padding: 5px 2%;
   font-size: 15px;
 }
