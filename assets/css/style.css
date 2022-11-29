@@ -221,6 +221,7 @@ h3 { padding: 5px; }
   border: 1px solid #ff0000;
   background-color: #fff;
   color: #ff0000;
+  cursor: pointer;
 }
 
 .tab-content > * { display: none; }
