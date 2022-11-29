@@ -210,10 +210,17 @@ h3 { padding: 5px; }
 }
 
 .tab1 p span { text-decoration: underline; }
+.filter-ul li { border: 1px solid transparent; }
 
 .gallery li img {
   height: 100%;
   object-fit: cover;
+}
+
+.filter-ul li:hover {
+  border: 1px solid #ff0000;
+  background-color: #fff;
+  color: #ff0000;
 }
 
 .tab-content > * { display: none; }
