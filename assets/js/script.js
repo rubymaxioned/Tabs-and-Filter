@@ -1,6 +1,6 @@
 var tabHeader = document.querySelectorAll('.tabs-head li');
 var tabContent = document.querySelectorAll('.tab-content > li');
-var filterBtn = document.querySelectorAll('.filter');
+var filterBtn = document.querySelectorAll('.filter-ul li');
 var galleryImg = document.querySelectorAll('.gallery li');
 
 tabHeader[0].classList.add('active');
